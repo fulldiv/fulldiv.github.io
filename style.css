@@ -92,6 +92,31 @@ a{
 	padding-left: 2vw;
 	padding-right: 2vw;
 }
+button{
+	margin-top: 5vh;
+	background-color: #ff8a00;
+	color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 3vw;
+	line-height: 4vh;
+	border: none;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	border-radius: 2px;
+	font-size: 3vw;
+	line-height: 4vh;
+	border: 2px solid #ff8a00;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
 .heart {
     content: "\2764";
     color: red;
@@ -170,29 +195,31 @@ a{
 .close {
   color: black;
   float: right;
-  font-size: 28px;
+  font-size: 1.5vw;
   font-weight: bold;
+  padding-right: 0.4vw;
 }
 
 .close:hover,
 .close:focus {
-  color: gray;
-  text-decoration: none;
+  color: #ff8a00;
   cursor: pointer;
 }
 
 .modal-header {
-  padding: 2px 16px;
-  background-color: #FFFFFF;
-  color: #000000;
+
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+	color: black;
+}
+ul{
+	list-style-type: none;
+	text-align: left;
+}
 
 .modal-footer {
-  padding: 2px 16px;
-  background-color: #FFFFFF;
-  color: #000000;
+
 }
 
 /* Add Animation */
@@ -216,12 +243,35 @@ a{
   to {opacity: 1}
 }
 .left{
-	padding-left: 7vw;
+
 	float: left;
-	width: 40%
+	width: 33vw;
 }
-.right{
-	padding-right: 7vw;
-	float: right;
-	width: 40%
+
+.StripeElement {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
 }
