@@ -1,0 +1,227 @@
+html{
+	background-color: #101117;
+	font-family: 'Fira Code', monospace;
+}
+body{
+	text-align: center;
+}
+.hero{
+	height: 100vh;
+	background-color: #101117;
+	color: #cfd0d6;
+}
+.top{
+	height: 10vh;
+	padding-top: 5vh;
+}
+.center{
+	height: 60vh;
+}
+.footer{
+	height: 5vh;
+	margin-top: 10vh;
+	padding-bottom: 2vh;
+	font-size: 1.3vw;
+	line-height: 1vh;
+	font-weight: 300;
+}
+mark{
+	color: #ff8a00;
+	background-color: transparent;
+	font-weight: 500;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.ts{
+	font-size: 5vw;
+	letter-spacing: 0.5vw;
+	color: #ff8a00;
+	font-weight: 600;
+	line-height: 5vh;
+}
+.sub{
+	font-size: 3vw;
+	line-height: 4vh;
+	font-weight: 500;
+}
+.sub2{
+	font-size: 1.8vw;
+	line-height: 1vh;
+	font-weight: 400;
+	margin-bottom: 4vh;
+}
+.sub4{
+	font-size: 1.3vw;
+	line-height: 1vh;
+	font-weight: 300;
+	margin-bottom: 10vh;
+}
+.sub3{
+	font-size: 1.3vw;
+	line-height: 0.1vh;
+	font-weight: 300;
+	margin-bottom: 5vh;
+	margin-top: 10vh;
+	text-decoration: underline solid #ff8a00;
+	text-underline-position: under
+}
+.button{
+	margin-top: 5vh;
+	background-color: #ff8a00;
+	color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 3vw;
+	line-height: 4vh;
+	border: none;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+.button:hover{
+	background-color: #101117;
+	color: #cfd0d6;
+	border-radius: 2px;
+	font-size: 3vw;
+	line-height: 4vh;
+	border: 2px solid #ff8a00;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+.heart {
+    content: "\2764";
+    color: red;
+
+}
+
+.fourpointfivestars{
+	height: 4vh;
+	display:inline-block;
+ vertical-align:middle;
+}
+.info{
+	background-color: #FFFFFF;
+	padding-top: 5vh;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	text-align: left;
+}
+.infohead{
+	font-weight: 700;
+	font-size: 1.5vw;
+	line-height: 4vh;
+	padding-bottom: 2vh;
+}
+.infoheadp{
+	font-weight: 400;
+	font-size: 1.4vw;
+	line-height: 3.8vh;
+	padding-bottom: 5vh;
+}
+.infolist{
+	font-weight: 700;
+	font-size: 1.2vw;
+	line-height: 3.5vh;
+	
+}
+.listdesc{
+	font-weight: 400;
+	font-size: 1.2vw;
+	line-height: 3.5vh;
+	padding-bottom: 3vh;
+	
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+.left{
+	padding-left: 7vw;
+	float: left;
+	width: 40%
+}
+.right{
+	padding-right: 7vw;
+	float: right;
+	width: 40%
+}
