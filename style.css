@@ -1,4 +1,5 @@
 html{
+	font-size: 16px;
 	background-color: #101117;
 	font-family: 'Fira Code', monospace;
 }
@@ -6,23 +7,13 @@ body{
 	text-align: center;
 }
 .hero{
-	height: 100vh;
 	background-color: #101117;
 	color: #cfd0d6;
 }
-.top{
-	height: 10vh;
-	padding-top: 5vh;
-}
-.center{
-	height: 60vh;
-}
 .footer{
-	height: 5vh;
-	margin-top: 10vh;
-	padding-bottom: 2vh;
-	font-size: 1.3vw;
-	line-height: 1vh;
+	margin-top: 5rem;
+	font-size: 1.3rem;
+	line-height: 2rem;
 	font-weight: 300;
 }
 mark{
@@ -35,104 +26,72 @@ a{
 	cursor: pointer;
 }
 .ts{
-	font-size: 5vw;
-	letter-spacing: 0.5vw;
+	margin-top: 7rem;
+	margin-bottom: 5rem;
+	font-size: 5rem;
+	letter-spacing: 0.1rem;
 	color: #ff8a00;
 	font-weight: 600;
-	line-height: 5vh;
+	line-height: 1rem;
 }
 .sub{
-	font-size: 3vw;
-	line-height: 4vh;
+	font-size: 3rem;
+	line-height: 3.5rem;
 	font-weight: 500;
+	margin-bottom: 6rem;
 }
 .sub2{
-	font-size: 1.8vw;
-	line-height: 1vh;
+	font-size: 1.8rem;
+	line-height: 2rem;
 	font-weight: 400;
-	margin-bottom: 4vh;
+	margin-bottom: 1rem;
 }
 .sub4{
-	font-size: 1.3vw;
-	line-height: 1vh;
+	margin-bottom: 8rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
 	font-weight: 300;
-	margin-bottom: 10vh;
 }
 .sub3{
-	font-size: 1.3vw;
-	line-height: 0.1vh;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
 	font-weight: 300;
-	margin-bottom: 5vh;
-	margin-top: 10vh;
 	text-decoration: underline solid #ff8a00;
 	text-underline-position: under
 }
 .button{
-	margin-top: 5vh;
+
 	background-color: #ff8a00;
 	color: #FFFFFF;
 	border-radius: 2px;
-	font-size: 3vw;
-	line-height: 4vh;
+	font-size: 3rem;
 	border: none;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
 }
 .button:hover{
 	background-color: #101117;
 	color: #cfd0d6;
-	border-radius: 2px;
-	font-size: 3vw;
-	line-height: 4vh;
 	border: 2px solid #ff8a00;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
+
+
 }
-button{
-	margin-top: 5vh;
-	background-color: #ff8a00;
-	color: #FFFFFF;
-	border-radius: 2px;
-	font-size: 3vw;
-	line-height: 4vh;
-	border: none;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
-}
-button:hover{
-	background-color: white;
-	color: black;
-	border-radius: 2px;
-	font-size: 3vw;
-	line-height: 4vh;
-	border: 2px solid #ff8a00;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
-}
+
 .heart {
     content: "\2764";
     color: red;
 
 }
 
-.fourpointfivestars{
-	height: 4vh;
-	display:inline-block;
- vertical-align:middle;
-}
+
 .info{
 	background-color: #FFFFFF;
-	padding-top: 5vh;
-	padding-left: 20vw;
-	padding-right: 20vw;
+
 	text-align: left;
 }
 .infohead{
@@ -151,14 +110,14 @@ button:hover{
 	font-weight: 700;
 	font-size: 1.2vw;
 	line-height: 3.5vh;
-	
+
 }
 .listdesc{
 	font-weight: 400;
 	font-size: 1.2vw;
 	line-height: 3.5vh;
 	padding-bottom: 3vh;
-	
+
 }
 /* The Modal (background) */
 .modal {
@@ -205,11 +164,6 @@ button:hover{
   color: #ff8a00;
   cursor: pointer;
 }
-
-.modal-header {
-
-}
-
 .modal-body {
 	color: black;
 }
@@ -217,14 +171,9 @@ ul{
 	list-style-type: none;
 	text-align: left;
 }
-
-.modal-footer {
-
-}
-
 /* Add Animation */
 @-webkit-keyframes slideIn {
-  from {bottom: -300px; opacity: 0} 
+  from {bottom: -300px; opacity: 0}
   to {bottom: 0; opacity: 1}
 }
 
@@ -234,12 +183,12 @@ ul{
 }
 
 @-webkit-keyframes fadeIn {
-  from {opacity: 0} 
+  from {opacity: 0}
   to {opacity: 1}
 }
 
 @keyframes fadeIn {
-  from {opacity: 0} 
+  from {opacity: 0}
   to {opacity: 1}
 }
 .left{
