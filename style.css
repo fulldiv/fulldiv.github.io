@@ -30,6 +30,7 @@ mark{
 a{
 	text-decoration: none;
 	cursor: pointer;
+
 }
 .ts{
 	margin-bottom: 5rem;
@@ -66,8 +67,27 @@ a{
 	text-decoration: underline solid #ff8a00;
 	text-underline-position: under
 }
-.button{
+input{
+	background-color: #ff8a00;
+	color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 3rem;
+	font-weight: 300;
+	border: none;
+}
+input[type=email]{
+	margin-bottom: 2rem;
+}
+input:focus{
+	
+}
+::placeholder{
+	color: white;
+	padding-left: 1rem;
+	font-size: 3rem;
+}
 
+.button{
 	background-color: #ff8a00;
 	color: #FFFFFF;
 	border-radius: 2px;
