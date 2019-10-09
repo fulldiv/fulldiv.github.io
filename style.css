@@ -2,6 +2,8 @@ html{
 	font-size: 16px;
 	background-color: #101117;
 	font-family: 'Fira Code', monospace;
+
+
 }
 body{
 	text-align: center;
@@ -9,9 +11,13 @@ body{
 .hero{
 	background-color: #101117;
 	color: #cfd0d6;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 .footer{
 	margin-top: 5rem;
+	padding-bottom: 1rem;
 	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 300;
@@ -26,7 +32,6 @@ a{
 	cursor: pointer;
 }
 .ts{
-	margin-top: 7rem;
 	margin-bottom: 5rem;
 	font-size: 5rem;
 	letter-spacing: 0.1rem;
@@ -90,6 +95,9 @@ a{
 
 
 .info{
+	padding-top: 5rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
 	background-color: #FFFFFF;
 
 	text-align: left;
