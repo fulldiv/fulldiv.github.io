@@ -1,0 +1,233 @@
+html{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.months{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+.fomo{
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.4rem;
+  background-color: #fffffa;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+h1{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 7rem;
+  margin: 0rem;
+}
+.herop{
+  font-size: 2rem;
+  padding-right: 5rem;
+}
+.list{
+  padding-left: 5rem;
+}
+ul{
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+li{
+  padding-bottom: 1rem;
+}
+.btn{
+  margin-top: 3rem;
+  text-align: center;
+}
+.btntxt{
+  font-size: 3rem;
+}
+.btn_remark{
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0rem;
+}
+.btn_remark2{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: black;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+a:hover{
+  border: 1px solid black;
+  background-color: inherit;
+  color: black;
+}
+.checkedwrapper{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.checked{
+  font-weight: 700;
+  display: inline-block;
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: left;
+}
+.checked p {
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+}
+.checkeditem{
+  font-size: 1.8rem;
+}
+.test{
+  font-size: 20rem
+}
+.secheading{
+  padding-left: 25rem;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  text-align: left;
+  margin-bottom: -8.8rem;
+}
+.sechero{
+  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  text-align: center;
+}
+.body_float {
+  background-color: #fcfcfc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.left {
+  margin-right: 3rem;
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.right {
+  display: block;
+  width: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.right p{
+  font-size: 1.7rem;
+}
+.right h2{
+  font-size: 1.5rem;
+}
+.FAQ{
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+  background-color: #fcfcfc;
+}
+.FAQ_item{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.FAQ_item h4, p{
+  font-size: 2rem;
+  margin: 0rem;
+  padding-bottom: 1rem;
+}
+.footer_p{
+  clear: both;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer_p p{
+  font-size: 2rem;
+  line-height: 3.5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.quotemark{
+  font-size: 3rem;
+}
+.quoteperson{
+  font-weight: 400;
+}
+.row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.column {
+  flex: 25%;
+}
+.logo{
+  height: 14rem;
+}
+.footer h2{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 992px){
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+}
+@media only screen and (min-width: 240px) and (max-width: 479px){
+}
