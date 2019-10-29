@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Learn HTML, CSS + Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700&display=swap" rel="stylesheet">
     <link href="image_sprite/ip2location-image-sprite-5.css" rel="stylesheet">
@@ -11,10 +12,10 @@
     <section class="Hero">
       <div class="months">
         <h3>10/2019&nbsp;⸺&nbsp;09/2020</h3>
-        <h3>⭐⭐⭐⭐⭐&nbsp;Over 10,000 happy students&nbsp;⭐⭐⭐⭐⭐</h3>
+        <h3>⭐⭐⭐⭐⭐&nbsp;Over&nbsp;10,000 happy&nbsp;students&nbsp;⭐⭐⭐⭐⭐</h3>
       </div>
-        <div class="fomo" id="fomo_feed">
-          <p class="fomo"><strong>46 people</strong> started their free trial in the last 24 hours.</p>
+        <div class="fomo">
+          <p class="fomo" id="fomo_feed"><strong>46 people</strong> started their free trial in the last 24 hours.</p>
         </div>
       <h1>HTML, CSS + Javascript <br>for beginners</h1>
       <div class="subheading">
@@ -61,7 +62,10 @@
         </div>
       </div>
       <div class="imgsec">
-        <h2 class="secheading">Here's how this is<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&nbsp;awesome...</h2>
+        <div class="secheadingwrapper">
+          <h2 class="secheading">Here's how this is</h2>
+          <h2 class="secheading secheading2">&#8212;&nbsp;awesome...</h2>
+        </div>
         <div class="body_float">
           <div class="left">
             <img class="coding" src="coding.jpg" alt="Coding">
@@ -121,6 +125,7 @@
         - Fix/replace spaces
         ✔️ Replace image
         ✔️ Add FOMO
+        -edit FOMO sec, increase size. padding?
         - Make responsive
         - Add copy
         - Get feedback
