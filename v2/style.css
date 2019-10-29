@@ -96,12 +96,18 @@ a:hover{
 .test{
   font-size: 20rem
 }
+.secheadingwrapper{
+  margin-bottom: -13.5rem;
+  margin-top: 0rem;
+}
 .secheading{
-  padding-left: 25rem;
   padding-bottom: 2rem;
+  line-height: 1rem;
   font-size: 5rem;
-  text-align: left;
-  margin-bottom: -8.8rem;
+  text-align: center;
+}
+.secheading2{
+  margin-left: 40rem;
 }
 .sechero{
   margin-bottom: 1.5rem;
@@ -223,11 +229,39 @@ a:hover{
   font-weight: 400;
   text-align: center;
 }
-@media (min-width: 992px){
+@media (min-width: 1441px){
+  html{
+    font-size: 12px;
+    color: black;
+  }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 1220px) and (max-width: 1440px){
+  html{
+    font-size: 10px;
+    color: orange;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1219px){
+  html{
+    font-size: 8px;
+    color: brown;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+  html{
+    font-size: 6px;
+    color: red;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
+  html{
+    font-size: 4px;
+    color: green;
+  }
 }
 @media only screen and (min-width: 240px) and (max-width: 479px){
+  html{
+    font-size: 2px;
+    color: blue;
+  }
 }
