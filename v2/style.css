@@ -155,6 +155,9 @@ a:hover{
   -ms-flex-align: end;
   align-items: flex-end;
 }
+.coding{
+  width: 100%;
+}
 .right {
   display: block;
   width: 50%;
@@ -229,39 +232,61 @@ a:hover{
   font-weight: 400;
   text-align: center;
 }
-@media (min-width: 1441px){
+@media (min-width: 1697px){
   html{
-    font-size: 12px;
+    
     color: black;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1696px){
+  html{
+    font-size: 13.2px;
+    color: pink;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 @media only screen and (min-width: 1220px) and (max-width: 1440px){
   html{
-    font-size: 10px;
+    font-size: 11px;
     color: orange;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1219px){
   html{
-    font-size: 8px;
+    font-size: 9px;
     color: brown;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px){
   html{
-    font-size: 6px;
+    font-size: 7.5px;
     color: red;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  
+  .footer h2{
+  font-size: 1.929rem;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
   html{
-    font-size: 4px;
+    font-size: 4.4px;
     color: green;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
   }
 }
-@media only screen and (min-width: 240px) and (max-width: 479px){
+@media only screen and (min-width: 320px) and (max-width: 479px){
   html{
-    font-size: 2px;
+    font-size: 3.784px;
     color: blue;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
   }
 }
