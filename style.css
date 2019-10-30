@@ -33,12 +33,12 @@ html{
 h1{
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  font-size: 7rem;
+  font-size: 7.4rem;
   margin: 0rem;
 }
 .herop{
-  font-size: 2rem;
-  padding-right: 5rem;
+  font-size: 2.5rem;
+
 }
 .list{
   padding-left: 5rem;
@@ -52,11 +52,11 @@ li{
   padding-bottom: 1rem;
 }
 .btn{
-  margin-top: 3rem;
+  margin-top: 4.4rem;
   text-align: center;
 }
 .btntxt{
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .btn_remark{
   padding-top: 2rem;
@@ -72,10 +72,9 @@ a{
   text-decoration: none;
   color: white;
   font-weight: 700;
-  font-size: 2rem;
   background-color: black;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -95,31 +94,29 @@ a:hover{
   text-align: left;
 }
 .checked p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   border-bottom: 1px solid black;
 }
 .checkeditem{
   font-size: 1.8rem;
 }
-.test{
-  font-size: 20rem
-}
+
 .secheadingwrapper{
-  margin-bottom: -13.5rem;
+  margin-bottom: -14rem;
   margin-top: 0rem;
 }
 .secheading{
   padding-bottom: 2rem;
-  line-height: 1rem;
-  font-size: 5rem;
+  line-height: .5rem;
+  font-size: 6rem;
   text-align: center;
 }
 .secheading2{
-  margin-left: 40rem;
+  margin-left: 23rem;
 }
 .sechero{
-  margin-bottom: 1.5rem;
-  font-size: 5rem;
+  margin-bottom: 3rem;
+  font-size: 6rem;
   text-align: center;
 }
 .body_float {
@@ -128,8 +125,8 @@ a:hover{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 10rem;
-  padding-left: 10rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -152,7 +149,7 @@ a:hover{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 35%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -165,10 +162,11 @@ a:hover{
 }
 .coding{
   width: 100%;
+
 }
 .right {
   display: block;
-  width: 50%;
+  width: 65%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -180,7 +178,8 @@ a:hover{
   justify-content: space-between;
 }
 .right p{
-  font-size: 1.7rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
 }
 .right h2{
   font-size: 1.5rem;
@@ -230,28 +229,11 @@ a:hover{
 .logowrapper {
   padding-top: 3rem;
   padding-bottom: 5rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-align-content: space-between;
-  -ms-flex-line-pack: justify;
   align-content: space-between;
 }
 .footer h2{
@@ -261,7 +243,7 @@ a:hover{
 }
 @media (min-width: 1697px){
   html{
-    
+
     color: black;
   }
 }
@@ -275,11 +257,17 @@ a:hover{
 }
 @media only screen and (min-width: 1220px) and (max-width: 1440px){
   html{
-    font-size: 11px;
+    font-size: 11.51px;
     color: orange;
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .footer h2{
+  font-size: 1.913rem;
+  font-weight: 400;
+  text-align: center;
+  }
+
 }
 @media only screen and (min-width: 960px) and (max-width: 1219px){
   html{
@@ -296,7 +284,6 @@ a:hover{
     margin-left: 0.1rem;
     margin-right: 0.1rem;
   }
-  
   .footer h2{
   font-size: 1.929rem;
   }
@@ -307,6 +294,13 @@ a:hover{
     color: green;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
+  }
+  .checked{
+  width: 80%;
+  }
+  .checked p {
+  font-size: 3.5rem;
+  border-bottom: 1px solid black;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 479px){
@@ -335,5 +329,99 @@ a:hover{
   }
   .secheadingwrapper{
   margin-bottom: -5rem;
+  }
+  .checked{
+  width: 80%;
+  }
+  .checked p {
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+  }
+}
+.logowrapper2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logowrapper2div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.logo2 {
+  height: 14rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (max-width: 991px) {
+  .logo2 {
+    height: 8rem;
+  }
+}
+@media (min-width: 768px){
+  .logowrapper2{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .logowrapper{
+    display: none;
+  }
+  .logowrapper2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .logowrapper2div {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .logo2.logom {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .logo2.logom {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
