@@ -338,6 +338,21 @@ a:hover{
   border-bottom: 1px solid black;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logowrapper2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -380,6 +395,7 @@ a:hover{
   .logowrapper2{
     display: none;
   }
+
 }
 @media (max-width: 767px) {
   .logowrapper{
