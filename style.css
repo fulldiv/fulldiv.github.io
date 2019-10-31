@@ -302,7 +302,6 @@ a:hover{
 @media only screen and (min-width: 320px) and (max-width: 479px){
   html{
     font-size: 8px;
-    color: blue;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
   }
@@ -352,6 +351,22 @@ a:hover{
   }
   .checked{
   width: 95%;
+  }
+  
+  .FAQ_item{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+  .FAQ_item h4, p{
+  font-size: 3rem;
+  margin: 0rem;
+  padding-bottom: 1rem;
+  }
+  .footer h2{
+  font-size: 2.5rem;
   }
   
 }
