@@ -309,6 +309,10 @@ a:hover{
   display: inline;
   font-size: 2rem;
   }
+  .fomo{
+  font-weight: 400;
+  font-size: 2rem;
+}
   .btn_remark{
   font-size: 2rem;
   padding-top: 3rem;
@@ -352,7 +356,7 @@ a:hover{
   .checked{
   width: 95%;
   }
-  
+
   .FAQ_item{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -368,6 +372,15 @@ a:hover{
   .footer h2{
   font-size: 2.5rem;
   }
+  .footer_p p{
+  font-size: 3rem;
+  line-height: 4.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  }
+  .quotemark{
+  font-size: 5rem;
+}
   
 }
 
