@@ -293,7 +293,6 @@ a:hover{
 @media only screen and (min-width: 320px) and (max-width: 479px){
   html{
     font-size: 7px;
-    color: blue;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
   }
@@ -315,8 +314,8 @@ a:hover{
   .sechero{
     font-size: 5.5rem;
   }
-  .secheading{
-  font-size: 5rem;
+  .secheading3{
+  font-size: 4.75rem;
   
   }
   .secheading2{
