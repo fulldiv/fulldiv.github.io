@@ -293,12 +293,13 @@ a:hover{
 @media only screen and (min-width: 320px) and (max-width: 479px){
   html{
     font-size: 7px;
+    color: blue;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
   }
   .months{
   display: inline;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   }
   .fomo{
   font-weight: 400;
