@@ -313,6 +313,25 @@ a:hover{
   .months{
   display: inline;
   }
+  .btntxt{
+  font-size: 6rem;
+  }
+  a{
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  .btn_remark{
+  padding-top: 5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0rem;
+  }
+  .btn_remark2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  }
   .body_float {
     margin-top: 1rem;
     display: inline-block;
@@ -432,6 +451,7 @@ a:hover{
   .logo2.logom {
     padding-right: 5rem;
     padding-left: 5rem;
+
   }
 }
 
