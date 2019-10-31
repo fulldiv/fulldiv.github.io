@@ -1,130 +1,471 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <!-- Primary Meta Tags -->
-    <title>Learn HTML, CSS + Javascript From Zero To Hero</title>
-    <meta name="title" content="Learn HTML, CSS + Javascript From Zero To Hero">
-    <meta name="description" content="Learn Full Stack Development along with me as I learn from Zero to Hero by building 15+ real-world projects with your very own portfolio site to showcase your new skills.">
-    <link rel="canonical" href="https://fulldiv.com/" />
-    <meta name="robots" content="index, follow">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fulldiv.com/">
-    <meta property="og:title" content="Learn HTML, CSS + Javascript From Zero To Hero">
-    <meta property="og:description" content="Learn Full Stack Development along with me as I learn from Zero to Hero by building 15+ real-world projects with your very own portfolio site to showcase your new skills.">
-    <meta property="og:image" content="img.png">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://fulldiv.com/">
-    <meta property="twitter:title" content="Learn HTML, CSS + Javascript From Zero To Hero">
-    <meta property="twitter:description" content="Learn Full Stack Development along with me as I learn from Zero to Hero by building 15+ real-world projects with your very own portfolio site to showcase your new skills.">
-    <meta property="twitter:image" content="img.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <section class="Hero">
-      <div class="months">
-        <div><h3>10/2019&nbsp;⸺&nbsp;09/2020</h3></div>
-        <div class="stars"><h3>⭐⭐⭐⭐⭐&nbsp;Over&nbsp;10,000 Happy&nbsp;Students</h3></div>
-      </div>
-        <div class="fomo">
-          <p class="fomo" id="fomo_feed"><strong>46 people</strong> started their free trial in the last 24 hours.</p>
-        </div>
-      <h1>Full Stack Development <br>for beginners</h1>
-      <div class="subheading">
-        <p class="herop">🡮&nbsp;Learn HTML, CSS, Javascript + Nodejs along with me as I learn from Zero to Hero — This is an excellent place to start. You will be learning everything you need to know to build 15+ real-world projects with your very own portfolio site to showcase your new skills.</p>
-      </div>
+html{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.months{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  align-items: stretch;
+  
+}
 
-      <div class="btn">
-        <a class="btntxt" href="#">Enroll&nbsp;Now!</a>
-        <!--
-          - Congradulations!!! You have found an easter egg.
-          - The first 10 people that use the coupon code "C0MNT" will get 80% off of the yearly plan.
-          - Enjoy!
-        -->
-        <p class="btn_remark">7-day free trial, then $49/month or $490/year</p>
-        <p class="btn_remark2">Become job-ready in  6-11 months<br>Build any web/mobile/desktop app you want!</p>
-      </div>
-    </section>
-    <section class="body">
-      <div class="checkedwrapper">
-        <div class="checked">
-          <h2 class="sechero">WHAT YOU'LL GET…</h2>
-          <p class="checkeditem">✓&nbsp;Full online access to this course</p>
-          <p class="checkeditem">✓&nbsp;1:1 mentorship and guidance</p>
-          <p class="checkeditem">✓&nbsp;Online learning that fits with your life</p>
-          <p class="checkeditem">✓&nbsp;Chat support and online community</p>
-          <p class="checkeditem">✓&nbsp;Create a job-winning portfolio</p>
-          <p class="checkeditem">✓&nbsp;Exclusive access to our job board</p>
-          <p class="checkeditem">✓&nbsp;Help with finding a job</p>
-          <p class="checkeditem">✓&nbsp;14-Day 100% risk-free money-back guarantee</p>
-        </div>
-      </div>
-      <div class="mobilelogowrapper">
-        <div class="w-layout-grid grid">
-          <img src="html5.svg" alt="HTML 5 Logo" class="logomoblie"/>
-          <img src="css3.svg" alt="CSS 3 Logo" class="logomoblie"/>
-          <img src="js.svg" alt="Javascript Logo" class="logomoblie"/>
-          <img src="nodejs.svg" alt="Node.js Logo" class="logomoblie lmnode"/>
-        </div>
-      </div>
-      
+.fomo{
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.4rem;
+  background-color: #fffffa;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+h1{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 7.4rem;
+  margin: 0rem;
+}
+.herop{
+  font-size: 2.5rem;
+  margin-top: 1rem;
 
-      
-      <div class="imgsec">
-        <div class="secheadingwrapper">
-          <h2 class="sechero">HERE'S HOW THIS IS</h2>
-          <h2 class="secheading secheading2">&#8212;&nbsp;AWESOME...</h2>
-        </div>
-        <div class="body_float">
-          <div class="left">
-            <img class="coding" src="coding.jpg" alt="Coding in a cofee shop">
-          </div>
-          <div class="right">
-            <h2><br><br><br>Full Stack Development</h2>
-            <p>This online program provides plain and easy to comprehend materials for every person no matter their background or experience with guidance from instructors going through exactly what you are going through with mentorship from industry experts giving you all the technical tools you need to succeed.<br><br>Whether you're interested in becoming a web developer or a data scientist — or simply want to use programming to develop applications and websites, you'll need a strong foundation with easy to understand bite-sized lessons and in this program, you’ll master all you need to know.<br><br>You won't need any prior coding experience to enroll, We've made sure the lessons are easy to understand and engaging and by the end of this course, you'll be able to make websites, applications, and games from scratch.</p>
-            <ul>
-              <li>&#8212;&nbsp;Hand code beautiful responsive websites using HTML, CSS + Javascript</li>
-              <li>&#8212;&nbsp;Develop mobile applications and games</li>
-              <li>&#8212;&nbsp;Work with Javascript libraries/frameworks to save time and quickly build your best ideas</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer_p">
-          <p> <span class="quotemark">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur.<span class="quotemark">”</span><span class="quoteperson"> <br><br>- John Lee</span></p>
-      </div>
-      <div class="FAQ">
-        <h2 class="sechero">PROGRAM OVERVIEW...</h2>
-        <div class="FAQ_item">
-          <h4 class="FAQ_item">⸺ What is Full Stack Development? What will I learn here?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur. Praesent non porttitor risus, id blandit ipsum. Curabitur orci nisi, semper id pretium in, varius vulputate diam.</p>
-        </div>
-        <div class="FAQ_item">
-          <h4>⸺ Is this program is right for me?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur. Praesent non porttitor risus, id blandit ipsum. Curabitur orci nisi, semper id pretium in, varius vulputate diam.</p>
-        </div>
-        <div class="FAQ_item">
-          <h4>⸺ Do I need to have any prior coding experience?</h4>
+}
+.list{
+  padding-left: 5rem;
+}
+ul{
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+li{
+  padding-bottom: 1rem;
+}
+.btn{
+  margin-top: 4.4rem;
+  text-align: center;
+}
+.btntxt{
+  font-size: 4rem;
+}
+.btn_remark{
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0rem;
+}
+.btn_remark2{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+a:hover{
+  border: 1px solid black;
+  background-color: inherit;
+  color: black;
+}
+.checkedwrapper{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.checked{
+  font-weight: 700;
+  display: inline-block;
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: left;
+}
+.checked p {
+  font-size: 2.5rem;
+  border-bottom: 1px solid black;
+}
+.checkeditem{
+  font-size: 1.8rem;
+}
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur. Praesent non porttitor risus, id blandit ipsum. Curabitur orci nisi, semper id pretium in, varius vulputate diam.</p>
-        </div>
-        <div class="FAQ_item">
-          <h4>⸺ How long is this course?</h4>
+.secheadingwrapper{
+  margin-bottom: -14rem;
+  margin-top: 0rem;
+}
+.secheading{
+  padding-bottom: 2rem;
+  line-height: .5rem;
+  font-size: 6rem;
+  text-align: center;
+}
+.secheading2{
+  margin-left: 23rem;
+}
+.sechero{
+  margin-bottom: 3rem;
+  font-size: 6rem;
+  text-align: center;
+}
+.body_float {
+  background-color: #fcfcfc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.left {
+  margin-right: 3rem;
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.coding{
+  width: 100%;
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur. Praesent non porttitor risus, id blandit ipsum. Curabitur orci nisi, semper id pretium in, varius vulputate diam.</p>
-        </div>
-        <div class="FAQ_item">
-          <h4>⸺ What is your refund/cancellation policy?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere massa eget pretium facilisis. Etiam pharetra arcu quis diam facilisis consectetur. Praesent non porttitor risus, id blandit ipsum. Curabitur orci nisi, semper id pretium in, varius vulputate diam.</p>
-        </div>
-      </div>
-    </section>
-    <section class="footer">
-      <h2>Hand-coded with&nbsp;❤️&nbsp;in <strong>Bangkok</strong> |&nbsp;Proudly&nbsp;hosted&nbsp;on <strong>Github&nbsp;Pages</strong> |&nbsp;Last&nbsp;updated: <strong>Oct.&nbsp;31</strong></h2>
-    </section>
-  </body>
-</html>
+}
+.right {
+  display: block;
+  width: 65%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.right p{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+.right h2{
+  font-size: 1.5rem;
+}
+.FAQ{
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+  background-color: #fcfcfc;
+}
+.FAQ_item{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.FAQ_item h4, p{
+  font-size: 2rem;
+  margin: 0rem;
+  padding-bottom: 1rem;
+}
+.footer_p{
+  clear: both;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer_p p{
+  font-size: 2rem;
+  line-height: 3.5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.quotemark{
+  font-size: 3rem;
+}
+.quoteperson{
+  font-weight: 400;
+}
+.logo {
+  height: 14rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.footer h2{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 1697px){
+  html{
+
+    color: black;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1696px){
+  html{
+    font-size: 13.2px;
+    color: pink;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (min-width: 1220px) and (max-width: 1440px){
+  html{
+    font-size: 11.51px;
+    color: orange;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .footer h2{
+  font-size: 1.913rem;
+  font-weight: 400;
+  text-align: center;
+  }
+
+}
+@media only screen and (min-width: 960px) and (max-width: 1219px){
+  html{
+    font-size: 9px;
+    color: brown;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+  html{
+    font-size: 7.5px;
+    color: red;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  .footer h2{
+  font-size: 1.929rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  html{
+    font-size: 4.4px;
+    color: green;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  .checked{
+  width: 80%;
+  }
+  .checked p {
+  font-size: 3.5rem;
+  border-bottom: 1px solid black;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  html{
+    font-size: 7px;
+    color: blue;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  .months{
+  display: inline;
+  font-size: 1.95rem;
+  }
+  .fomo{
+  font-weight: 400;
+  font-size: 2rem;
+}
+  .btn_remark{
+  font-size: 2rem;
+  padding-top: 3rem;
+  }
+  .btn_remark2{
+  font-size: 2.3rem;
+  }
+  .sechero{
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .secheading3{
+  font-size: 4.75rem;
+  
+  }
+  .secheading2{
+  margin-left: 10rem;
+  }
+  
+  .body_float {
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+  }
+  .left{
+    display: inline;
+  }
+  .coding{
+    width: 70%;
+  }
+  ul{
+    font-size: 2.5rem;
+    
+    padding-left: 2rem;
+  }
+  .right{
+    display: inline;
+    text-align: left;
+  }
+
+
+  .right p{
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  }
+  .right h2{
+  font-size: 3rem;
+  }
+
+
+  .secheadingwrapper{
+  margin-bottom: -5rem;
+  }
+  .checked{
+  width: 95%;
+  }
+
+  .FAQ_item{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+  .FAQ_item h4, p{
+  font-size: 3rem;
+  margin: 0rem;
+  padding-bottom: 1rem;
+  }
+  .footer h2{
+  font-size: 2.5rem;
+  }
+  .footer_p p{
+  font-size: 3rem;
+  line-height: 4.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  }
+  .quotemark{
+  font-size: 5rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.mobilelogowrapper {
+  display: block;
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+}
+
+.logomoblie {
+  width: 50%;
+  margin: auto;
+}
+.logomoblie.lmnode {
+  width: 70%;
+}
+
+.grid {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+@media (max-width: 767px) {
+  .mobilelogowrapper {
+    display: block;
+  }
+  .logomoblie {
+    width: 50%;
+    margin: auto;
+  }
+  .grid {
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
