@@ -305,7 +305,7 @@ a:hover{
 }
 @media only screen and (min-width: 320px) and (max-width: 479px){
   html{
-    font-size: 4px;
+    font-size: 8px;
     color: blue;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
@@ -313,25 +313,7 @@ a:hover{
   .months{
   display: inline;
   }
-  .btntxt{
-  font-size: 6rem;
-  }
-  a{
-  padding-left: 7rem;
-  padding-right: 7rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  }
-  .btn_remark{
-  padding-top: 5rem;
-  font-weight: 400;
-  font-size: 2rem;
-  margin: 0rem;
-  }
-  .btn_remark2{
-  font-weight: 700;
-  font-size: 2.5rem;
-  }
+  
   .body_float {
     margin-top: 1rem;
     display: inline-block;
@@ -341,22 +323,41 @@ a:hover{
     display: inline;
   }
   .coding{
-    width: 50%;
+    width: 70%;
+  }
+  ul{
+    font-size: 2rem;
   }
   .right{
     display: inline;
+    text-align: left;
   }
+  
   .secheadingwrapper{
   margin-bottom: -5rem;
   }
   .checked{
   width: 80%;
   }
-  .checked p {
-  font-size: 3rem;
-  border-bottom: 1px solid black;
-  }
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
