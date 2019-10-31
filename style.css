@@ -301,7 +301,8 @@ a:hover{
 }
 @media only screen and (min-width: 320px) and (max-width: 479px){
   html{
-    font-size: 8px;
+    font-size: 7px;
+    color: blue;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
   }
@@ -343,13 +344,25 @@ a:hover{
     width: 70%;
   }
   ul{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    
+    padding-left: 2rem;
   }
   .right{
     display: inline;
     text-align: left;
   }
-  
+
+
+  .right p{
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  }
+  .right h2{
+  font-size: 3rem;
+  }
+
+
   .secheadingwrapper{
   margin-bottom: -5rem;
   }
@@ -380,7 +393,7 @@ a:hover{
   }
   .quotemark{
   font-size: 5rem;
-}
+  }
   
 }
 
