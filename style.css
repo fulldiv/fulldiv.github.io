@@ -9,15 +9,10 @@ html{
   align-items: center;
   justify-content: space-around;
   font-size: 2rem;
-}
-.month {
-  font-size: 2rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: stretch;
+  
 }
+
 .fomo{
   font-weight: 400;
   font-style: italic;
@@ -38,6 +33,7 @@ h1{
 }
 .herop{
   font-size: 2.5rem;
+  margin-top: 1rem;
 
 }
 .list{
@@ -312,6 +308,24 @@ a:hover{
   }
   .months{
   display: inline;
+  font-size: 2rem;
+  }
+  .btn_remark{
+  font-size: 2rem;
+  padding-top: 3rem;
+  }
+  .btn_remark2{
+  font-size: 2.3rem;
+  }
+  .sechero{
+    font-size: 5.5rem;
+  }
+  .secheading{
+  font-size: 5rem;
+  
+  }
+  .secheading2{
+  margin-left: 15rem;
   }
   
   .body_float {
@@ -337,7 +351,7 @@ a:hover{
   margin-bottom: -5rem;
   }
   .checked{
-  width: 80%;
+  width: 95%;
   }
   
 }
