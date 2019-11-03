@@ -59,7 +59,7 @@ a:hover{
 	border: 1px solid black;
 }
 .sectionheader{
-	margin: 10vw 0vw 5vw 0vw;
+	margin: 15vw 0vw 5vw 0vw;
 	text-align: center;
 	font-size: 5vw;
 }
@@ -86,7 +86,7 @@ a:hover{
 .faqitemwrapper{
 	border-left: 0.5vw solid black;
 	padding-left: 2vw;
-	margin-bottom: 5vw;
+	margin-bottom: 10vw;
 }
 .footer{
 	margin-top: 10vw;
@@ -107,6 +107,7 @@ a:hover{
 	}
 	.mobilefooteritem{
 		display: inline;
+		margin-left: 5vw;
 	}
 	.sectionheader{
 		font-size: 6vw;
