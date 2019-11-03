@@ -119,13 +119,17 @@ a:hover{
 	}
 	.heroparagraph{
 		font-size: 5vw;
-		margin-bottom: 10vw;
+		margin-bottom: 7vw;
 
 	}
 	.fomo{
-		margin: 3vw 0vw 3vw 0vw;
-		font-size: 3.33vw;
-		line-height: 5vw;
+		margin: 5vw 0vw 5vw 0vw;
+		font-size: 5vw;
+		line-height: 6vw;
+		padding: 0.5vw 0vw 0.5vw 0vw;
+	}
+	.logo{
+		height: 20vw;
 	}
 	h1{
 		font-size: 11vw;
