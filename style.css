@@ -78,9 +78,10 @@ a:hover{
 }
 .logos{
 	text-align: center;
+	margin: 20vw 3vw 15vw 3vw;
+
 }
 .logo{
-	margin: 10vw 3vw 0vw 3vw;
 	height: 15vw;
 }
 .faqitemwrapper{
