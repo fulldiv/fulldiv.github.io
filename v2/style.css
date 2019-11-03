@@ -28,12 +28,16 @@ h5{
 .duration{
 	text-align: left;
 	margin: 1vw 0vw 1vw 0vw;
+	padding: 1vw 0vw 1.5vw 0vw;
 	border-bottom: 1px solid black;
 }
 .fomo{
 	display: none;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+}
+.heromain{
+	padding: 3vw 0vw 3vw 0vw;
 }
 .herocta{
 	text-align: center;
@@ -79,6 +83,7 @@ a:hover{
 .faqitemwrapper{
 	border-left: 0.5vw solid black;
 	padding-left: 2vw;
+	margin-bottom: 5vw;
 }
 .footer{
 	margin-top: 10vw;
@@ -93,5 +98,46 @@ a:hover{
 @media (max-width: 479px){
 	.checkwrapper{
 		display: inline;
+	}
+	.footertext{
+		display: none;
+	}
+	.mobilefooteritem{
+		display: inline;
+	}
+	.sectionheader{
+		font-size: 6vw;
+
+	}
+	.checktext{
+		line-height: 6.66vw;
+	}
+	.heroparagraph{
+		font-size: 3.33vw;
+
+	}
+	h1{
+		font-size: 9vw;
+	}
+	h3{
+		font-size: 5vw;
+
+	}
+	h4{
+		font-size: 3.33vw;
+	}
+	h5{
+		font-size: 2.22vw;
+
+	}
+	p{
+		font-size: 3.33vw;
+
+	}
+	a{
+		font-size: 5vw;
+		padding: 1.5vw 7vw 1.5vw 7vw;
+
+
 	}
 }
