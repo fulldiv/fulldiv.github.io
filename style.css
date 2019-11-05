@@ -72,7 +72,7 @@ a:hover{
 	margin-top: 3vw;
 }
 .tooltiptext{
-	padding: 1vw 1vw 1vw 1vw;
+	padding: 2vw 0vw 2vw 0vw;
 }
 
 .tooltip .tooltiptext {
@@ -85,19 +85,19 @@ a:hover{
   border-radius: 2px;
   position: absolute;
   z-index: 1;
-  top: 150%;
+  bottom: 150%;
   left: 0%;
 }
 
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  bottom: 100%;
+  top: 100%;
   left: 50%;
-  margin-left: -5px;
+
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: black transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
