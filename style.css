@@ -51,6 +51,8 @@ h5{
 }
 .secondcta{
 	margin-top: 10vw;
+	border: 1px solid #404040;
+	padding: 5vw 0vw 3vw 0vw;
 }
 a{
 	background-color: black;
