@@ -170,7 +170,7 @@ a:hover{
 	}
 	.heroparagraph{
 		font-size: 4vw;
-		margin-bottom: 7vw;
+		margin-bottom: 10vw;
 	}
 	.fomo{
 		margin: 5vw 0vw 5vw 0vw;
@@ -202,7 +202,7 @@ a:hover{
 		font-size: 5vw;
 	}
 	a{
-		font-size: 7.5vw;
-		padding: 2vw 10vw 2vw 10vw;
+		font-size: 5vw;
+		padding: 2vw 7vw 2vw 7vw;
 	}
 }
