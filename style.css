@@ -1,232 +1,146 @@
-html{
+html {
 	font-family: 'IBM Plex Mono', monospace;
-	padding: 1vw 0.5vw 0vw 0.5vw;
+  padding: 1vw 0.5vw 0vw 0.5vw;
+  
 	max-width: 1366px;
-	margin: auto;
+	margin: auto
 }
-h1{
+h1 {
 	font-size: 4.87vw;
 	line-height: 7vw;
-	margin: 0px;
-	padding: 2vw 3vw 1vw;
+	margin: 0;
+	padding: 2vw 0 1vw
 }
-.heroparagraph{
+.heroparagraph {
 	font-size: 1.5vw;
-	padding: 0vw 3vw 0vw;
-	margin: 0px;
+	padding: 0 0 0;
+	margin: 0
 }
-p{
+p {
 	font-size: 1.5vw;
-	margin: auto;
+	margin: auto
 }
-h2{
-	font-size: 5vw;
+h2 {
+	font-size: 5vw
 }
-h3{
-	font-size: 3.33vw;
+h3 {
+	font-size: 3.33vw
 }
-h4{
-	font-size: 2.22vw;
-	line-height: 4vw;
-
+h4 {
+	font-size: 1.7vw;
+	line-height: 4vw
 }
-h5{
-	font-size: 1.44vw;
-	text-indent: 2vw;
+h5 {
+	margin-top: 1vw;
+	font-size: 1vw
 }
-.duration{
+.duration {
 	text-align: left;
-	margin: 0vw 0vw 1vw 0vw;
+	margin: 2vw 0 1vw 0;
+  font-size: 2vw;
 }
-.fomo{
-	font-size: 1.5vw;
-	line-height: 3vw;
+.herocta {
 	text-align: center;
-	border-top: 1px solid #404040;
-	border-bottom: 1px solid #404040;
+	margin-top: 5vw
 }
-.herocta{
-	text-align: center;
-	margin-top: 5vw;
-}
-.secondcta{
-	margin-top: 10vw;
-	border: 1px solid #404040;
-	padding: 5vw 0vw 3vw 0vw;
-}
-a{
-	background-color: black;
-	color: white;
+a {
+	background-color: #000;
+	color: #fff;
 	font-size: 2.22vw;
 	padding: 1.11vw 4.44vw 1.11vw 4.44vw;
-	text-decoration: none;
+	text-decoration: none
 }
-a:hover{
+a:hover {
 	background-color: inherit;
-	color: black;
-	border: 1px solid #404040;
+	color: #000;
+	border: 1px solid #404040
 }
 .tooltip {
 	font-size: 1vw;
-  position: relative;
-  display: inline-block;
-  border-bottom: 2px dotted #404040;
-	margin-top: 3vw;
-	cursor: pointer;
-}
-.tooltiptext{
-	padding: 2vw 0vw 2vw 0vw;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120%;
-	color: white;
-	font-size: 1.22vw;
-  background-color: black;
-  text-align: center;
-  border-radius: 2px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: -10%;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  border-width: 0.5vw;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-}
-
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-.sectionheader{
-	margin: 10vw 0vw 5vw 0vw;
-	text-align: center;
-	font-size: 4vw;
-}
-.check{
-	text-align: center;
-}
-.checkwrapper{
+	position: relative;
 	display: inline-block;
-	text-align: left;
+	border-bottom: 2px dotted #404040;
+	margin-top: 3vw
 }
-.checktext{
+.sectionheader {
+	margin: 7vw 0 2vw 0;
+	text-align: center;
+	font-size: 4vw
+}
+.check {
+	text-align: center
+}
+.checkwrapper {
+	display: inline-block;
+	text-align: left
+}
+.checktext {
 	border-bottom: 1px solid #404040;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0
 }
-.logos{
-	text-align: center;
+.footer {
+	margin: 10vw 0vw 3vw;
+	text-align: center
 }
-.logo{
-	height: 12vw;
-	margin: 15vw 2vw 0vw 3vw;
+.footertext {
+	font-size: 1.3vw
 }
-.descriptionwrapper{
-	width: 80vw;
-	margin: auto;
-
+.mobilefooteritem {
+	display: none
 }
-.faqitemwrapper{
-	border-left: 0.5vw solid #404040;
-	padding-left: 2vw;
-	margin: 0vw auto 5vw auto;
-	width: 80vw;
-
-}
-.footer{
-	margin-top: 10vw;
-	text-align: center;
-}
-.footertext{
-	font-size: 1.3vw;
-}
-.mobilefooteritem{
-	display: none;
-}
-@media (max-width: 479px){
-	.checkwrapper{
+@media (max-width: 479px) {
+	.checkwrapper {
+		display: inline
+	}
+	.footertext {
+		display: none
+	}
+	.mobilefooteritem {
 		display: inline;
+		margin-left: 5vw
 	}
-	.footertext{
-		display: none;
+	.sectionheader {
+		font-size: 5vw
 	}
-	.mobilefooteritem{
-		display: inline;
-		margin-left: 5vw;
+	.checktext {
+		line-height: 6.66vw
 	}
-	.sectionheader{
-		font-size: 5vw;
-	}
-	.checktext{
-		line-height: 6.66vw;
-	}
-	.heroparagraph{
+	.heroparagraph {
 		font-size: 4vw;
-		margin: 5vw 0vw 10vw;
-	}
-	.fomo{
-		margin: 5vw 0vw 5vw 0vw;
-		font-size: 4.5vw;
-		line-height: 6vw;
-		padding: 1vw 0vw 1vw;
-	}
-	.logo{
-		height: 15vw;
-		margin: 15vw 0.3vw 3vw 0.5vw;
+		margin: 5vw 0 10vw
 	}
 	.tooltip {
 		font-size: 3.33vw;
-	  position: relative;
-	  display: inline-block;
-	  border-bottom: 2px dotted #404040;
+		position: relative;
+		display: inline-block;
+		border-bottom: 2px dotted #404040;
 		margin-top: 5vw;
-		cursor: pointer;
+		cursor: pointer
 	}
-	.tooltiptext{
-		padding: 5vw 0vw 5vw 0vw;
-	}
-	.tooltip .tooltiptext {
-		font-size: 3.33vw;
-	}
-	.tooltip .tooltiptext::after {
-	  content: "";
-	  position: absolute;
-	  top: 100%;
-	  left: 50%;
-	  border-width: 3vw;
-	}
-	h1{
+	h1 {
 		font-size: 11.2vw;
-		line-height: 12vw;
+		line-height: 12vw
 	}
-	h2{
-		font-size: 7.5vw;
+	h2 {
+		font-size: 7.5vw
 	}
-	h3{
+	h3 {
+		font-size: 5vw
+	}
+	h4 {
+		font-size: 4vw;
+		line-height: 5vw
+	}
+	h5 {
+		font-size: 4vw
+	}
+	p {
+		font-size: 4vw;
+		line-height: 6vw
+	}
+	a {
 		font-size: 5vw;
-	}
-	h4{
-		font-size: 4vw;
-		line-height: 5vw;
-	}
-	h5{
-		font-size: 4vw;
-	}
-	p{
-		font-size: 4vw;
-		line-height: 6vw;
-	}
-	a{
-		font-size: 5vw;
-		padding: 2vw 7vw 2vw 7vw;
+		padding: 2vw 7vw 2vw 7vw
 	}
 }
