@@ -90,7 +90,6 @@ h5 {
 .mobilefooteritem {
 	display: none
 }
-
 @media (max-width: 767px) {
 	.checkwrapper {
 		display: inline
