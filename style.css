@@ -1,8 +1,6 @@
 html {
 	font-family: 'IBM Plex Mono', monospace;
-  padding: 1vw 0.5vw 0vw 0.5vw;
-
-	padding: 0vw 5vw 0vw 5vw;
+	padding: 1vw 5vw 0vw 5vw;
 	margin: auto
 }
 h1 {
