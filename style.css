@@ -1,8 +1,8 @@
 html {
 	font-family: 'IBM Plex Mono', monospace;
   padding: 1vw 0.5vw 0vw 0.5vw;
-  
-	max-width: 1366px;
+
+	padding: 0vw 5vw 0vw 5vw;
 	margin: auto
 }
 h1 {
@@ -63,7 +63,7 @@ a:hover {
 	margin-top: 3vw
 }
 .sectionheader {
-	margin: 7vw 0 2vw 0;
+	margin: 10vw 0 2vw 0;
 	text-align: center;
 	font-size: 4vw
 }
@@ -89,7 +89,8 @@ a:hover {
 .mobilefooteritem {
 	display: none
 }
-@media (max-width: 479px) {
+
+@media (max-width: 767px) {
 	.checkwrapper {
 		display: inline
 	}
