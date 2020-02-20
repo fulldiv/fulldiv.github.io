@@ -1,147 +1,395 @@
 html {
-	font-family: 'IBM Plex Mono', monospace;
-	padding: 1vw 5vw 0vw 5vw;
-	margin: auto
+	height: 100%;
+	padding: 3vh 5vw 5vh;
+
+}
+body {
+	margin: 0;
+	min-height: 100%;
+	background-color: #fff;
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	margin-bottom: 5vh;
+
+}
+h1,
+h2 {
+	font-weight: bold;
+	margin-bottom: 10px
 }
 h1 {
-	font-size: 4.87vw;
-	line-height: 7vw;
-	margin: 0;
-	padding: 2vw 0 1vw
-}
-.heroparagraph {
-	font-size: 1.5vw;
-	padding: 0 0 0;
-	margin: 0
-}
-p {
-	font-size: 1.5vw;
-	margin: auto
+	font-size: 38px;
+	line-height: 44px;
+	margin-top: 20px
 }
 h2 {
-	font-size: 5vw
+	font-size: 32px;
+	line-height: 36px;
+	margin-top: 20px
 }
-h3 {
-	font-size: 3.33vw
+p {
+	margin-top: 0;
+	margin-bottom: 10px
 }
-h4 {
-	font-size: 1.6vw;
-	line-height: 4vw
+.hero {
+	line-height: 11px;
 }
-h5 {
-	margin-top: 1vw;
-	font-size: 1vw
+.navwrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
-.duration {
-	text-align: left;
-	margin: 2vw 0 1vw 0;
-  font-size: 2vw;
+.navright {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
-.herocta {
+.body {
+	padding: 3vh 5vw 5vh;
+}
+.fomo {
+	display: block;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+	border-style: solid none;
+	border-width: 1px;
+	border-color: #000;
+}
+.heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 2em;
+	line-height: 2em;
 	text-align: center;
-	margin-top: 5vw
+	letter-spacing: 3px;
 }
-.a {
-	font-family: 'IBM Plex Mono', monospace;
+.italic-text {
+	font-weight: 400;
+}
+.heading-2 {
+	font-size: 2em;
+	line-height: 1em;
+}
+.heading-3 {
+	padding-left: 10px;
+	font-size: 2em;
+	line-height: 1em;
+}
+.heading-4 {
+	margin-bottom: 20px;
+	font-size: 7.5em;
+	line-height: 1.3em;
+	letter-spacing: 10px;
+}
+.paragraph {
+	font-size: 2.9em;
+	line-height: 1.5em;
+	letter-spacing: 3px;
+}
+.ctawrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 5vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.link {
+	display: inline-block;
+	padding-right: 1em;
+	padding-left: 1em;
 	background-color: #000;
 	color: #fff;
-	font-size: 2.22vw;
-	padding: 1.11vw 4.44vw 1.11vw 4.44vw;
-	text-decoration: none;
-	border: none;
-	cursor: pointer;
-}
-.a:hover {
-	background-color: inherit;
-	color: #000;
-	border: 1px solid #404040
-}
-.tooltip {
-	font-size: 1vw;
-	position: relative;
-	display: inline-block;
-	border-bottom: 2px dotted #404040;
-	margin-top: 3vw
-}
-.sectionheader {
-	margin: 10vw 0 2vw 0;
+	font-size: 3em;
+	line-height: 2.5em;
 	text-align: center;
-	font-size: 4vw
+	text-decoration: none;
 }
-.check {
-	text-align: center
+.link:hover {
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
 }
-.checkwrapper {
-	display: inline-block;
-	text-align: left
+.ctainfo {
+	margin-top: 3vh;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
 }
-.checktext {
-	border-bottom: 1px solid #404040;
-	padding: 0;
-	margin: 0
+.bold-text {
+	line-height: 2em;
+}
+.info {
+	margin-top: 10vh;
+}
+.sectionheading {
+	margin-bottom: 4vh;
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: left;
+	letter-spacing: 3px;
+}
+.listwrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.listitem {
+	margin-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	font-size: 2.3em;
+	line-height: 1em;
+	text-align: left;
+}
+.listcontent {
+	width: 50%;
+	padding-right: 5vw;
 }
 .footer {
-	margin: 10vw 0vw 3vw;
-	text-align: center
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 20vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 .footertext {
-	font-size: 1.3vw
+	padding-right: 2vw;
+	padding-left: 2vw;
+	font-size: 1.5em;
+	line-height: 1em;
 }
-.mobilefooteritem {
-	display: none
+.listdesc {
+	width: 50%;
 }
-@media (max-width: 767px) {
-	.checkwrapper {
-		display: inline
+.infoparag {
+	margin-bottom: 30px;
+	font-size: 1.8em;
+	line-height: 1.5em;
+	text-align: left;
+	letter-spacing: 2px;
+}
+.infobenefits {
+	font-size: 1.8em;
+	line-height: 2em;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+@media screen and (max-width: 991px) {
+	.navwrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.navright {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.heading {
+		font-size: 1em;
+	}
+	.heading-2 {
+		font-size: 2.3em;
+	}
+	.heading-3 {
+		font-size: 2.3em;
+	}
+	.heading-4 {
+		font-size: 4em;
+		letter-spacing: 3px;
+	}
+	.paragraph {
+		font-size: 1.9em;
+	}
+	.ctawrapper {
+		margin-top: 3vh;
+	}
+	.sectionheading {
+		font-size: 1.5em;
+	}
+	.listwrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.listitem {
+		font-size: 2em;
+	}
+	.listcontent {
+		width: 100%;
+	}
+	.footer {
+		margin-top: 15vh;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 	}
 	.footertext {
-		display: none
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+		font-size: 1.5em;
+		letter-spacing: 3px;
 	}
-	.mobilefooteritem {
-		display: inline;
-		margin-left: 5vw
+	.listdesc {
+		width: 100%;
+		margin-top: 10vh;
 	}
-	.sectionheader {
-		font-size: 5vw
+}
+@media screen and (max-width: 767px) {
+	.heading {
+		font-size: 1em;
+		letter-spacing: 1px;
 	}
-	.checktext {
-		line-height: 6.66vw
+	.heading-2 {
+		font-size: 2em;
 	}
-	.heroparagraph {
-		font-size: 4vw;
-		margin: 5vw 0 10vw
+	.heading-3 {
+		font-size: 1.9em;
 	}
-	.tooltip {
-		font-size: 3.33vw;
-		position: relative;
-		display: inline-block;
-		border-bottom: 2px dotted #404040;
-		margin-top: 5vw;
-		cursor: pointer
+	.heading-4 {
+		font-size: 2.6em;
+		letter-spacing: 1px;
 	}
-	h1 {
-		font-size: 11.2vw;
-		line-height: 12vw
+	.paragraph {
+		font-size: 1.4em;
 	}
-	h2 {
-		font-size: 7.5vw
+	.ctawrapper {
+		margin-top: 5vh;
 	}
-	h3 {
-		font-size: 5vw
+	.link {
+		font-size: 2em;
 	}
-	h4 {
-		font-size: 4vw;
-		line-height: 5vw
+	.ctainfo {
+		margin-top: 5vh;
+		font-size: 1em;
 	}
-	h5 {
-		font-size: 4vw
+	.sectionheading {
+		font-size: 1.5em;
 	}
-	p {
-		font-size: 4vw;
-		line-height: 6vw
+	.listitem {
+		font-size: 1.5em;
 	}
-	a {
-		font-size: 5vw;
-		padding: 2vw 7vw 2vw 7vw
+	.footertext {
+		font-size: 1.5em;
+	}
+	.infoparag {
+		font-size: 1.5em;
+	}
+	.infobenefits {
+		font-size: 1.5em;
+		letter-spacing: 1px;
+	}
+}
+@media screen and (max-width: 479px) {
+	.heading {
+		font-size: 1.1em;
+		letter-spacing: 5px;
+	}
+	.heading-2 {
+		font-size: 1.4em;
+	}
+	.heading-3 {
+		font-size: 1.3em;
+		text-align: center;
+	}
+	.heading-4 {
+		margin-bottom: 20px;
+		font-size: 2em;
+		letter-spacing: 1px;
+	}
+	.paragraph {
+		font-size: 1.1em;
+	}
+	.link {
+		font-size: 1.5em;
+	}
+	.ctainfo {
+		font-size: 0.8em;
+	}
+	.sectionheading {
+		font-size: 1em;
+	}
+	.listitem {
+		font-size: 1em;
+	}
+	.footertext {
+		font-size: 0.9em;
+		letter-spacing: 2px;
+	}
+	.infoparag {
+		font-size: 1em;
+	}
+	.infobenefits {
+		font-size: 1em;
+		letter-spacing: 0px;
 	}
 }
