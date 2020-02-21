@@ -87,14 +87,20 @@ p {
 }
 .heading-4 {
 	margin-bottom: 20px;
-	font-size: 7.5em;
+	font-size: 6em;
 	line-height: 1.3em;
 	letter-spacing: 10px;
+
+}
+.herocontent {
+	padding: 0em 5em 0em;
+
 }
 .paragraph {
-	font-size: 2.9em;
+	font-size: 2.3em;
 	line-height: 1.5em;
 	letter-spacing: 3px;
+	padding: 0em 3em 0em;
 }
 .ctawrapper {
 	display: -webkit-box;
