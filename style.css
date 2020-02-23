@@ -184,6 +184,20 @@ p {
 	width: 50%;
 	padding-right: 5vw;
 }
+.gridwlayout {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+.projectsection {
+	margin-top: 10vh;
+}
 .footer {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -291,6 +305,10 @@ p {
 	.listcontent {
 		width: 100%;
 	}
+	.projectgrid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 	.footer {
 		margin-top: 15vh;
 		-webkit-box-orient: vertical;
