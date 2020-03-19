@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	padding: 3vh 5vw 5vh;
+	padding: 5vh 5vw 5vh;
 
 }
 body {
@@ -36,6 +36,7 @@ p {
 .hero {
 	line-height: 11px;
 }
+
 .navwrapper {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -60,7 +61,7 @@ p {
 .fomo {
 	display: block;
 	margin-top: 2vh;
-	margin-bottom: 5vh;
+	margin-bottom: 10vh;
 	border-style: solid none;
 	border-width: 1px;
 	border-color: #000;
@@ -68,7 +69,7 @@ p {
 .heading {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 2em;
 	text-align: center;
 	letter-spacing: 3px;
@@ -77,30 +78,30 @@ p {
 	font-weight: 400;
 }
 .heading-2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1em;
 }
 .heading-3 {
 	padding-left: 10px;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1em;
 }
 .heading-4 {
 	margin-bottom: 20px;
-	font-size: 6em;
+	font-size: 5em;
 	line-height: 1.3em;
 	letter-spacing: 10px;
 
 }
 .herocontent {
-	padding: 0em 5em 0em;
+	padding: 0em 2em 1em;
 
 }
 .paragraph {
-	font-size: 2.3em;
-	line-height: 1.5em;
-	letter-spacing: 3px;
-	padding: 0em 3em 0em;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: 2px;
+	padding: 0em 1em 0em;
 }
 .ctawrapper {
 	display: -webkit-box;
@@ -123,8 +124,8 @@ p {
 	padding-left: 1em;
 	background-color: #000;
 	color: #fff;
-	font-size: 3em;
-	line-height: 2.5em;
+	font-size: 2em;
+	line-height: 2.2em;
 	text-align: center;
 	text-decoration: none;
 }
@@ -135,7 +136,8 @@ p {
 }
 .ctainfo {
 	margin-top: 3vh;
-	font-size: 1.5em;
+	margin-bottom: 20vh;
+	font-size: 1em;
 	line-height: 1em;
 	text-align: center;
 }
@@ -143,16 +145,18 @@ p {
 	line-height: 2em;
 }
 .info {
-	margin-top: 10vh;
+	margin-top: 20vh;
 }
 .sectionheading {
-	margin-bottom: 4vh;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
 	font-size: 2em;
 	line-height: 1.5em;
 	text-align: left;
 	letter-spacing: 3px;
 }
 .listwrapper {
+	margin-bottom: 20vh;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -172,17 +176,17 @@ p {
 	align-items: flex-start;
 }
 .listitem {
-	margin-top: 15px;
-	padding-bottom: 15px;
+	margin-top: 0.5em;
+	padding-bottom: 0.5em;
 	border-bottom: 1px solid #000;
-	border-radius: 0px;
-	font-size: 2.3em;
+	font-size: 1.5em;
 	line-height: 1em;
 	text-align: left;
 }
 .listcontent {
 	width: 50%;
 	padding-right: 5vw;
+
 }
 .gridlayout {
   display: -ms-grid;
@@ -226,14 +230,14 @@ p {
 }
 .infoparag {
 	margin-bottom: 30px;
-	font-size: 1.8em;
-	line-height: 1.5em;
+	font-size: 1.5em;
+	line-height: 1.3em;
 	text-align: left;
 	letter-spacing: 2px;
 }
 .infobenefits {
-	font-size: 1.8em;
-	line-height: 2em;
+	font-size: 1.5em;
+	line-height: 1.3em;
 	font-weight: 700;
 	letter-spacing: 2px;
 }
