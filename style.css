@@ -217,6 +217,31 @@ a {
 
 .projectsection {
 	margin-top: 10vh;
+
+}
+.statsx {
+	
+	margin: auto;
+	width: 80%;
+	margin-top: 15vh;
+	
+}
+.stats {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.statitem {
+
+}
+.stathead {
+	text-align: center;
+	font-weight: 700;
+}
+.statdescription {
+	text-align: center;
+	font-weight: 700;
+
 }
 .footer {
 	display: -webkit-box;
