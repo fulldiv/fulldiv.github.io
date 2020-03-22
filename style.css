@@ -150,7 +150,7 @@ a {
 }
 .ctainfo {
 	margin-top: 3vh;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 	font-size: 1em;
 	line-height: 1em;
 	text-align: center;
@@ -159,7 +159,7 @@ a {
 	line-height: 2em;
 }
 .info {
-	margin-top: 20vh;
+	margin-top: 10vh;
 }
 .sectionheading {
 	margin-top: 10vh;
@@ -248,7 +248,7 @@ a {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
@@ -348,11 +348,12 @@ a {
 		-ms-flex-align: center;
 		align-items: center;
 	}
-	.statsx {
-		width: 95%;
+	.stats {
+		display: block;
+		justify-content: center;
 	}
-	.stathead {
-		font-size: 2em;
+	.statitem {
+		margin-top: 5vh;
 	}
 	.listitem {
 		font-size: 2em;
@@ -409,7 +410,6 @@ a {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		
 	}
 	.ctawrapper {
 		margin-top: 5vh;
