@@ -165,15 +165,21 @@ footer{
 .pricing .plan ul.features li .fas{
     margin-right:4px
 }
-.pricing .plan button{
+.pricing .plan .button{
     border:none;
     width:100%;
-    padding:12px 35px;
+    padding: 0.5rem 2rem;
     margin-top:1rem;
     background-color:#000;
     color:#fff;
     cursor:pointer;
     font-size:1.2rem;
+    font-weight: 400;
+
+}
+.btnwrapper{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem 0.5rem;
 }
 .pricing .plan.popular{
     border:1px solid #000;
