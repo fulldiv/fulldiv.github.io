@@ -1,0 +1,135 @@
+
+		<div id="paypal-button"></div>
+		
+
+<script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
+
+<script>
+    paypal.Button.render({
+		/*Configuration options:
+		color: "blue", "gold", "silver"
+		size: "tiny", "small", "medium"
+		shape: "pill", "rect"
+		*/
+		// Sample https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/customize-button/
+		locale: 'en_US',
+		style: {
+			size: 'medium',
+			color: 'black',
+			shape: 'rect',
+			label: 'checkout'
+		},
+        // Integration specific PayPal REST API credentials
+		// Change 'sandbox' or 'production' to make shopping with test money or real money
+		env: 'sandbox',
+        client: {
+		// Copy paste your sandbox & production Client ID from https://developer.paypal.com - My new REST app credentials
+		sandbox:    'Ae2Hbbjvhz0vOqosyLmkJx5hKZZGBenTEI7n4ocO6BFArZ8dPxrFkIccgjVPtQW1yVsSlySon2CwCWlE',
+		production: 'Copy paste your production Client ID from https://developer.paypal.com - My new REST app credentials'
+        },
+
+        payment: function() {
+        
+            var env    = this.props.env;
+            var client = this.props.client;
+        
+            // Sample https://developer.paypal.com/docs/api/payments/#payment_create
+			return paypal.rest.payment.create(env, client, {
+			intent: "sale",
+			payer: { payment_method: "paypal" },
+                transactions: [
+                    {
+                        amount: { total: '490.00', currency: 'USD',
+								"details": {
+								"subtotal": "490.00",
+								"tax": "0.00",
+								"shipping": "0.00",
+								"handling_fee": "0.00",
+								"shipping_discount": "-0.00",
+								"insurance": "0.00"
+								}
+						},
+						description: "2 CUKKA with international shipping",
+					  "custom": "myCustomText",
+					  "invoice_number": "myUniqueInvoiceNumber" + new Date().toISOString(),
+					  "payment_options": {
+						"allowed_payment_method": "INSTANT_FUNDING_SOURCE"
+					  },
+					  "item_list": {
+						"items": [
+						  {
+							"name": "2 CUKKA",
+							"description": "2 CUKKA",
+							"quantity": "1",
+							"price": "19.99",
+							"tax": "0.00",
+							"sku": "2CUKKA",
+							"currency": "EUR"
+						  },
+						  {
+							"name": "Free International Shipping",
+							"description": "Free International Shipping",
+							"quantity": "1",
+							"price": "0",
+							"tax": "0.00",
+							"sku": "FreeInternationalShipping",
+							"currency": "EUR"
+						  }
+						],
+						
+						// Send buyer's shipping address to PayPal. For Seller Protection, product shipment documents must show same address.
+						/* 
+						"shipping_address": {
+						  "recipient_name": "Aklen Altinel",
+						  "line1": "Free Trade Zone",
+						  "line2": "Optional",
+						  "city": "San Jose",
+						  "country_code": "US",
+						  "postal_code": "95131",
+						  "phone": "+905425044514",
+						  "state": "CA"
+						}
+						*/
+					  }
+                    }
+                ],
+				// Optional seller note to buyer shown at payment approval page
+				// "note_to_payer": "Your PayPal shipping address and contact phone is being used.",
+				redirect_urls: {
+					return_url: "https://fulldiv.com/thankyou.html",
+					cancel_url: "https://fulldiv.com/cancel.html"
+				}				
+            });
+        },
+
+        commit: true, // Optional: show a 'Pay Now' button in the checkout flow
+
+        onAuthorize: function(data, actions) {
+			// Optional: display a confirmation page here after buyer clicks pay now
+			// alert('Thanks for payment approval.');
+			
+			return actions.payment.execute().then(function() {
+			// Show a success page to the buyer after payment is executed
+			alert('Your CUKKA order has been taken!' + '\n' + 'CUKKA siparisiniz alindi!'
+			//+ '\n' + 'Token: ' + data.paymentToken  + '\n' + 'PayerID: ' + data.payerID +'\n' + 'PaymentID: ' + data.paymentID + '\n' + 'Data: ' + data.toSource()
+			);
+				});
+        },
+		
+		onCancel: function(data, actions) {
+			// Show cancel url when buyer clicks cancel
+			alert('Return to shopping!'  + '\n' + 'Alisverise geri don!'
+			//+ '\n' + 'Data: ' + data.toSource()
+			);
+			return actions.redirect();
+        },
+		
+		onError: function(data, actions) {
+            // Show an error page here. You may try restarting payment execution.
+			alert('Something went wrong with payment approval. You can reach us via email.'+ '\n' + 'Data: ' + data.toSource());
+			return actions.restart();
+        }
+
+    }, '#paypal-button');
+</script>
+		
