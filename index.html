@@ -315,45 +315,45 @@ a {
 }
 </style>
 <script>
-    window.onload = function() {
-        document.getElementById("loading").style.display = "none";
-        document.getElementById("loading2").style.display = "none";
-        document.getElementById("button").style.display = "block";
-        document.getElementById("gum").style.display = "block";
-        //get email from url param
-        const gumPre = "https://gumroad.com/l/sylAu"
-        let email = window.location.search;
-        let param = email.slice(0, 6)
-        // check is there is an email parameter in url, if so run validation function
-        if (param === "?email") {
-            console.log("Email found in parameter");
-            email = email.slice(7);
-            // update html SRC if email if valid (email includes @ and .)
-            if (email.includes("@") && email.includes(".")) {
-                replaceSRC();
-            } else {
-            }
-        } else {
-        }
-        // construct new gum url and update src in html
-        function replaceSRC (){
-            let gumFinal = gumPre + "?email=" + email + "&price=66" + "&wanted=true"
-            console.log(gumFinal);
-            document.getElementById("gumFrame").src=gumFinal;
-        }
-      gum.onclick = function() {
-        document.getElementById("blurBG").style.zIndex = "555";
-        document.getElementById("gumFrame").style.zIndex = "1000";
-        document.getElementById("gumClose").style.display = "block";
-        return false;
-      }
-      gumClose.onclick = function() {
-        document.getElementById("gumClose").style.display = "none";
-        document.getElementById("gumFrame").style.zIndex = "-100";
-        document.getElementById("blurBG").style.zIndex = "-111";
-        return false;
-      }
-    }
+    // window.onload = function() {
+    //    document.getElementById("loading").style.display = "none";
+    //    document.getElementById("loading2").style.display = "none";
+    //    document.getElementById("button").style.display = "block";
+    //    document.getElementById("gum").style.display = "block";
+    //    //get email from url param
+    //    const gumPre = "https://gumroad.com/l/sylAu"
+    //    let email = window.location.search;
+    //    let param = email.slice(0, 6)
+    //    // check is there is an email parameter in url, if so run validation function
+    //    if (param === "?email") {
+    //        console.log("Email found in parameter");
+    //        email = email.slice(7);
+    //        // update html SRC if email if valid (email includes @ and .)
+    //        if (email.includes("@") && email.includes(".")) {
+    //            replaceSRC();
+    //        } else {
+    //        }
+    //    } else {
+    //    }
+    //    // construct new gum url and update src in html
+    //    function replaceSRC (){
+    //        let gumFinal = gumPre + "?email=" + email + "&price=66" + "&wanted=true"
+    //        console.log(gumFinal);
+    //        document.getElementById("gumFrame").src=gumFinal;
+    //    }
+    //  gum.onclick = function() {
+    //    document.getElementById("blurBG").style.zIndex = "555";
+    //    document.getElementById("gumFrame").style.zIndex = "1000";
+    //    document.getElementById("gumClose").style.display = "block";
+    //    return false;
+    //  }
+    //  gumClose.onclick = function() {
+    //    document.getElementById("gumClose").style.display = "none";
+    //    document.getElementById("gumFrame").style.zIndex = "-100";
+    //    document.getElementById("blurBG").style.zIndex = "-111";
+    //    return false;
+    //  }
+    //}
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168761391-1"></script>
 <script>
@@ -404,9 +404,12 @@ a {
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0095/6683.js" async="async"></script>
 </head>
 <body>
-    <img id="gumClose" height="32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBRYHGTBEBfs2AAABSUlEQVRo3s2ZuQ3DMBRDiczhwoX3X0HZw4WLDKIUAaIosnV+mnL7AfLJ0PEPIHwrnljB/hY4bGeBFQc8DjLCgh0erxThY+/JCB97nyIEeyZCsP9DiO1ZCLH9D0Jqz0BI7b8I7iTg4bFjIdt7eLhc0OovFB24CFXqPIRqZQ5Ck6o9QrOiLUKXmh1Ct5INwpDKOMKwwpiAyT/sFzHbRX1CpueoXcz8JmkTpNyl9aK016ROmPqelsXpGUXegJ/QZBH2TMQupcsi0Fffg0CqLGoRiLVVDQK5uiwhsIvbAkKH/YPNe+f6J9gBE5yBCW6BCe5BAoL4MRI/x+KERJySiZNScVouLkzEpZm4OBWX5+IGhbhFI25Sidt04kaluFUrblaL2/XygYW7CN42spEPreRjuxTh9sFljCAZ3QYE2fAaADY4287WBUI0vn8Dx9FscaAu/KQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMjJUMDc6MjU6NDgrMDA6MDAVGWqsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTIyVDA3OjI1OjQ4KzAwOjAwZETSEAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=" alt="close button">
-    <iframe id="gumFrame" src="https://gumroad.com/l/sylAu?wanted=true&price=66" ></iframe>
-    <div id="blurBG" ></div>
+    <!--
+        <img id="gumClose" height="32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBRYHGTBEBfs2AAABSUlEQVRo3s2ZuQ3DMBRDiczhwoX3X0HZw4WLDKIUAaIosnV+mnL7AfLJ0PEPIHwrnljB/hY4bGeBFQc8DjLCgh0erxThY+/JCB97nyIEeyZCsP9DiO1ZCLH9D0Jqz0BI7b8I7iTg4bFjIdt7eLhc0OovFB24CFXqPIRqZQ5Ck6o9QrOiLUKXmh1Ct5INwpDKOMKwwpiAyT/sFzHbRX1CpueoXcz8JmkTpNyl9aK016ROmPqelsXpGUXegJ/QZBH2TMQupcsi0Fffg0CqLGoRiLVVDQK5uiwhsIvbAkKH/YPNe+f6J9gBE5yBCW6BCe5BAoL4MRI/x+KERJySiZNScVouLkzEpZm4OBWX5+IGhbhFI25Sidt04kaluFUrblaL2/XygYW7CN42spEPreRjuxTh9sFljCAZ3QYE2fAaADY4287WBUI0vn8Dx9FscaAu/KQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMjJUMDc6MjU6NDgrMDA6MDAVGWqsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTIyVDA3OjI1OjQ4KzAwOjAwZETSEAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=" alt="close button">
+        <iframe id="gumFrame" src="https://gumroad.com/l/sylAu?wanted=true&price=66" ></iframe>
+        <div id="blurBG" ></div>
+    -->
+    
     <div class="section" style="background-color: white;">
         <div class="flexCenter">
             <div class="grid3">
@@ -492,20 +495,22 @@ a {
         <h2>A learning experience you can <mark>&nbsp;afford.&nbsp;</mark></h2>
         <p>FullDiv costs less than <strong>1/40th</strong> the cost of a year at university yet you will be job-ready in <strong>1/4th</strong> the time!*</p><br><br><br>
         <div class="gridContainer2">
+            <!-- a tag id="button" and after link <p id="loading2"><strong>Loading ...</strong></p>-->
             <div id="noLoad" class="pricingWrapper">
                 <h3>MONTHLY</h3>
                 <h2 class="price">$89 per month</h2>
                 <p>Choose monthly if you want to try FullDiv to see if it's the right program for you.</p><br>
-                <a class="noLink" id="button" href=""><mark class="pricingMark">&nbsp;Coming soon&nbsp;</mark></a>
-                <p id="loading2"><strong>Loading ...</strong></p>
+                <a class="noLink"  href=""><mark class="pricingMark">&nbsp;Coming soon&nbsp;</mark></a>
+                
                 <br><br>
             </div>
+            <!-- a tag id="gum" and on the next line <p id="loading"><strong>Loading ...</strong></p>-->
             <div class="pricingWrapper">
                 <h3><span class="strike">YEARLY</span> Lifetime (pre-order)</h3>
                 <h2 class="price"><span class="strike">$890</span> $89 one-time</h2>
                 <p>Life-time membership will be replaced with the $890 yearly option once we launch. <strong>-Only 82 spots left-</strong></p><br>
-                <a id="gum" href=""><mark class="pricingMark">&nbsp;PRE-ORDER NOW&nbsp;</mark></a>
-                <p id="loading"><strong>Loading ...</strong></p>
+                <a href=""><mark class="pricingMark">&nbsp;PRE-ORDER NOW&nbsp;</mark></a>
+                
                 <br><br>
             </div>
         </div>
